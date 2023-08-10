@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>ABC Business Translator</title>
+	<script src="./index.js" defer></script>
+	
+</head>
+<body>
+  <h1>Language Translation API</h1>
+    <form id="translationForm">
+	  <label for="text" id="text" name="text" required>Text to Translate</label>
+	  <br>
+	  <label for="targetLang">Targe Language:</label>
+	  <select id="targetLang" name="targetLang" required>
+		<option value="es">Auto Detect</option>
+		<option value="es">Spanish</option>
+		<option value="es">English</option>
+		<option value="es">Protuguese</option>
+	  </select>
+	  <br>
+	  <button type="submit"> Translate</button>
+    </form>
+	<div id="translatedResult"></div>
+	
+</body>
+</html>
